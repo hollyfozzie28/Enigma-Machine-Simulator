@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.foster.gui.Home">
+  <grid id="27dc6" binding="mainPanel" default-binding="true" layout-manager="GridLayoutManager" row-count="14" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1237" height="562"/>
+    </constraints>
+    <properties>
+      <background color="-15967700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="93cbc" binding="pnlLabel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="126" height="58"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15967700"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="beff1" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-136449"/>
+              <font name="American Typewriter" size="18"/>
+              <foreground color="-1"/>
+              <text value="Enigma Machine"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="9f7c8">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c2c76" class="javax.swing.JComboBox" binding="cbRotorSelection1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-2894893"/>
+          <font swing-font="Button.font"/>
+        </properties>
+      </component>
+      <component id="c272c" class="javax.swing.JComboBox" binding="cbRotorSelection2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="294" height="30"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="c3efa" class="javax.swing.JComboBox" binding="cbRotorSelection3">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="3f74b" class="javax.swing.JTextField" binding="tfRotVal3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+            <maximum-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <editable value="false"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="5d208" class="javax.swing.JSlider" binding="sdRot1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9404272"/>
+          <foreground color="-525064"/>
+          <maximum value="25"/>
+          <minimum value="0"/>
+          <value value="1"/>
+        </properties>
+      </component>
+      <component id="714ce" class="javax.swing.JSlider" binding="sdRot2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="294" height="24"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9404272"/>
+          <maximum value="25"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="7b1f3" class="javax.swing.JSlider" binding="sdRot3">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9404272"/>
+          <maximum value="25"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="53855" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="294" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Rotor Initial Position"/>
+        </properties>
+      </component>
+      <component id="84c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Wirings&#10;"/>
+        </properties>
+      </component>
+      <component id="ebdc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Plaintext&#10;"/>
+        </properties>
+      </component>
+      <component id="98583" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Ciphertext"/>
+        </properties>
+      </component>
+      <component id="cc1d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Plugboard"/>
+        </properties>
+      </component>
+      <component id="dd7f2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="294" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Rotor Selection"/>
+        </properties>
+      </component>
+      <scrollpane id="34bac" binding="spWirText">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="50a05" class="javax.swing.JTextArea" binding="taWiring">
+            <constraints/>
+            <properties>
+              <background color="-2894893"/>
+              <caretColor color="-13618367"/>
+              <font name="American Typewriter"/>
+              <foreground color="-13618367"/>
+              <selectedTextColor color="-13618367"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="47477" class="javax.swing.JTextField" binding="tfRotVal1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+            <maximum-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <editable value="false"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <vspacer id="b9036">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5395d" class="javax.swing.JLabel" binding="lblRot3">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <horizontalAlignment value="0"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="b4652" class="javax.swing.JLabel" binding="lblRot1">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <horizontalAlignment value="0"/>
+          <text value="A"/>
+        </properties>
+      </component>
+      <component id="35520" class="javax.swing.JLabel" binding="lblRot2">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <horizontalAlignment value="0"/>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="58a15" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Reflector Selection"/>
+        </properties>
+      </component>
+      <component id="e55a3" class="javax.swing.JComboBox" binding="refBox">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="541ab" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="American Typewriter"/>
+          <text value="Rotors"/>
+        </properties>
+      </component>
+      <component id="4e502" class="javax.swing.JList" binding="lstPlugboard">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="b70ef" class="javax.swing.JButton" binding="btnAdd">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+          <text value="Add Plugboard Pair"/>
+        </properties>
+      </component>
+      <component id="fb55b" class="javax.swing.JButton" binding="btnDelete">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <font name="American Typewriter"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="2814c" class="javax.swing.JTextField" binding="tfInput">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <editable value="false"/>
+          <focusable value="true"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+      <component id="4b9cc" class="javax.swing.JTextField" binding="tfResult">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <editable value="false"/>
+          <focusable value="true"/>
+          <font name="American Typewriter"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9da18" class="javax.swing.JTextField" binding="tfRotVal2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="294" height="30"/>
+            <maximum-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2894893"/>
+          <editable value="false"/>
+          <font name="American Typewriter"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
